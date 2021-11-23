@@ -53,4 +53,5 @@ class MovieHandler(Resource):
             db.session.commit()
             return jsonify({"status": "success", "message": "Data save successfully!"})
         except Exception as e:
+            db.session.rollback()
             return jsonify({"status": "error", "message": "Data is not save successfully! Please try again"})
