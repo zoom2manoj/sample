@@ -18,4 +18,3 @@ done
 >&2
 source /usr/local/bin/docker-entrypoint
 
-python app.py
