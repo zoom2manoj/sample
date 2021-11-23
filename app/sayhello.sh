@@ -17,3 +17,5 @@ until curl --output /dev/null --silent --head --fail "$WAIT_HOSTS"; do
 done
 >&2
 source /usr/local/bin/docker-entrypoint
+
+python app.py
