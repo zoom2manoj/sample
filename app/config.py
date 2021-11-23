@@ -26,7 +26,7 @@ class Config:
     USER_EMAIL_SENDER_NAME = USER_APP_NAME
     USER_EMAIL_SENDER_EMAIL = "noreply@example.com"
     JWT_TOKEN_EXPIRE = 300
-    USER_ROLE_NORMAL = "user" # 0
-    USER_ROLE_ADMIN = "admin" # 1
-    USER_ROLE_SUPER_ADMIN = "sa" # 2
+    USER_ROLE_NORMAL = "user"  # 0
+    USER_ROLE_ADMIN = "admin"  # 1
+    USER_ROLE_SUPER_ADMIN = "sa"  # 2
     JWT_ALGORITHMS = "HS256"
