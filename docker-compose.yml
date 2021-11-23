@@ -6,7 +6,7 @@ services:
       - db
     ports:
       - "5000:5000"
-    command: sh -c "/wait && /sayhello"
+#    command: sh -c "/wait && /sayhello"
     environment:
       - WAIT_HOSTS=mysql:3306
       - WAIT_HOSTS_TIMEOUT=300
