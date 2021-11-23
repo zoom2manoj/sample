@@ -24,6 +24,6 @@ CREATE TABLE `movie_genre` (
   `genre_id` int unsigned NOT NULL,
   FOREIGN KEY (`movie_id`) REFERENCES movie(id) ON DELETE RESTRICT ON UPDATE CASCADE,
   FOREIGN KEY (`genre_id`) REFERENCES genre(id) ON DELETE RESTRICT ON UPDATE CASCADE,
-  PRIMARY KEY (`movie_id`, `genre_id`),
+  PRIMARY KEY (`movie_id`, `genre_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 

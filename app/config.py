@@ -15,8 +15,8 @@ class Config:
 
     # Database
     # SQLALCHEMY_DATABASE_URI = 'db'
-    # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@db/sample_demo_db'
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@172.18.0.2:3306/sample_demo_db'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@db/sample_demo_db'
+    # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@172.18.0.3:3306/sample_demo_db'
     SQLALCHEMY_ECHO = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # Flask-User settings
